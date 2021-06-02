@@ -1,0 +1,56 @@
+@media screen and (max-width: 768px){
+    .header{
+        width: 100%;
+    }
+    
+
+    .header ul li{
+        font-size: 15px;
+        padding-right: 22px;
+    }
+    
+    .content{
+        grid-row-gap: 30px;
+    }
+    
+    .content_right{
+        margin-left: 30px;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .box_1{
+        grid-column-end: 3;
+        background-position-x: -30px;
+    }
+    
+    .box_3{
+        background-image: url(Hamburger.jpg);
+        background-position-x: -30px;
+       
+      
+        
+    }
+    .box_4{
+        background-image: url(Hamburger3.jpg);
+        background-position-y: -30px;
+    }
+    
+    .box_6{
+        background-image: url(maxresdefault.jpg);
+        background-position-x: -90px;
+       
+    }
+    
+    .content_left{
+        margin-left: 25px;
+    }
+    
+   
+    .content_left_1{
+        font-size: 11px;
+    }
+    
+    .footer{
+        font-size: 15px;
+    }
+}

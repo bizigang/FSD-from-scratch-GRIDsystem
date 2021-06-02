@@ -1,0 +1,196 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 1650px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.9fr 12fr 0.7fr;
+}
+
+.header{
+    position: relative;
+    background-color: #860909;
+}
+
+.header .logo{
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    width: 100px;
+}
+
+.header ul{
+    position: absolute;
+    right: 40px;
+    display: inline-block;
+    list-style: none;   
+}
+
+.header ul li{
+    font-weight: lighter;
+    font-size: 18px;
+    color: black;
+    display: inline-block;
+    padding-top: 40px;
+    padding-right: 100px;
+}
+
+.header  ul li:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.content{
+    grid-row-gap: 30px;
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+    grid-template-rows: 1fr;
+    border: 1px solid rgb(155, 0, 0);
+   
+}
+
+.content_right{
+    margin-left: 90px;
+    padding-top: 20px;
+    background-color: rgb(0, 0, 0);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+    grid-gap: 20px;
+ 
+}
+
+.box_1{
+    background-image: url(submenu_20041_web_thumb.jpg);
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.box_2{
+    background-image: url(Hamburger2.webp);
+    
+   
+}
+.box_3{
+    background-image: url(Hamburger.jpg);
+   
+  
+    
+}
+.box_4{
+    background-image: url(Hamburger3.jpg);
+    background-position-y: -80px;
+  
+}
+
+.box_5{
+    background-image: url(kfc4-1.jpg);
+    background-position-x: -80px;
+   
+}
+
+.box_6{
+    background-image: url(maxresdefault.jpg);
+    background-position-x: -50px;
+}
+
+.box_7{
+    background-image: url(kfc-chicken.jpg);  
+}
+.box_8{
+    background-image: url(Retsept-Tvister-CHizz-Bekon.jpg);
+}
+
+.box_9{
+    background-image: url(Screenshot_3-1.jpg);
+}
+
+.box_10{
+    background-image: url(flatten.jpg);
+}
+    
+.box_11{
+    background-image: url(30026572-8457489-image-a-19_1593045014996.jpg);
+}
+
+.box_12{
+    background-image: url(P7_FamilyBurgerBox_web_thumb.jpg);
+}
+.box_13{
+    background-image: url(tvister-kfs-recept_9.jpg);
+}
+.box_14{
+    background-image: url(french-fries.jpg);
+}
+.box_15{
+    background-image: url(kfc\ menu.jpg);
+}
+.box_16{
+    background-image: url(scale_1200.jpg);
+    background-position-y: -60px;
+}
+
+.content_left{
+    margin-left: 40px;
+    padding: 20px ;
+    display: grid;
+    grid-template-columns: 0.9fr;
+    grid-template-rows: 100px 300px 300px;
+    color: whitesmoke;
+    width: 90%;
+    background-color: rgb(0, 0, 0);
+    grid-row-gap: 30px;
+}
+
+.box, .content_left_2, .content_left_3{
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+.content_left_1{
+    background-color: rgb(105, 14, 14);
+    font-size: 20px;
+    border-radius: 10px;
+    padding-left: 8px;
+}
+
+.content_left div:nth-child(2){
+    background-size: cover;
+}
+
+.content_left_2{
+    background-image: url(Fast\ food\ menu.jpg);
+    background-position: -20px 0;
+}
+
+.content_left_3{
+    background-image: url(7e2485ba07ec47f12b4064d9dcab139a.jpg);
+    background-size: cover;
+}
+
+/* .content_left::-webkit-scrollbar{
+    height: 0px;
+    width: 0px;
+}
+
+.content_left:hover{
+    overflow-y: scroll;
+    overflow-x: hidden;
+} */
+
+.footer{
+    color: cornsilk;
+    font-size: larger;
+    padding-top: 25px;
+    text-align: center;
+    margin-top: 20px;
+    background: rgb(48, 0, 0);
+}
+
+
